@@ -53,7 +53,7 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
               </svg>
             </button>
-            <div className={`absolute top-16 left-0 w-full ${isMenuOpen ? 'bg-white' : ''}  lg:static lg:w-auto lg:flex lg:items-center lg:gap-4 ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
+            <div className={`absolute top-16 left-0 w-full ${isMenuOpen ? 'bg-white h-atuo p-3' : ''}  lg:static lg:w-auto lg:flex lg:items-center lg:gap-4 ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
               <div className="flex flex-col lg:flex-row lg:justify-center items-center space-y-3 lg:space-y-0 lg:space-x-4">
                 <NavLink to="/" className={({ isActive }) => `block px-4 py-2 flex items-center ${isActive ? 'text-blue-700' : 'text-gray-800 hover:text-gray-900'}`}>
                   <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
