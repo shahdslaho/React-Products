@@ -43,7 +43,7 @@ const Home = () => {
             </button>
           </div>
           <div className="flex-1 mt-6 lg:mt-0  ">
-            <img src="../../../src/assets/image/image.png" alt="Technology" className="lg:w-full lg:h-auto  h-[20rem] md:w-full lg:rounded-tr-[20px] lg:rounded-br-[20px]" />
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Technology" className="lg:w-full lg:h-auto  h-[20rem] md:w-full lg:rounded-tr-[20px] lg:rounded-br-[20px]" />
           </div>
         </div>
       </div>
