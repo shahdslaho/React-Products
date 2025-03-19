@@ -19,13 +19,13 @@ const useWhatsAppCheckout = () => {
     const finalTotal = total + tax;
 
     const fullMessage = 
-      `Order Details:%0A%0A${items}%0A%0A
-      Customer:%0AName: ${customerInfo?.firstName} ${customerInfo?.lastName}%0A
-      Email: ${customerInfo?.email}%0A
-      Phone: ${customerInfo?.phone}%0A
-      Address: ${customerInfo?.address}, ${customerInfo?.city}, ${customerInfo?.zipCode}%0A%0A
-      Subtotal: $${total.toFixed(2)}%0A
-      Tax: $${tax.toFixed(2)}%0A
+      `Order Details:${items}
+      Customer:${customerInfo?.firstName} ${customerInfo?.lastName}
+      Email: ${customerInfo?.email}
+      Phone: ${customerInfo?.phone}
+      Address: ${customerInfo?.address}, ${customerInfo?.city}, ${customerInfo?.zipCode}
+      Subtotal: $${total.toFixed(2)}
+      Tax: $${tax.toFixed(2)}
       Total: $${finalTotal.toFixed(2)}`;
 
     const encodedMessage = encodeURIComponent(fullMessage);
