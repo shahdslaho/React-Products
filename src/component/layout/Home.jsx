@@ -7,8 +7,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Autoplay } from 'swiper/modules'; // Import the Autoplay module
-// تعديل مسار الاستيراد
-import ProductCard from "./CardProduct";  // تغيير المسار ليكون صحيحاً
+
+import ProductCard from "./CardProduct";  
  
 import { items } from '../../data/products';
 import useCartStore from '../../store/useCartStore';
